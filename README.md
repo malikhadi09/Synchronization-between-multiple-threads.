@@ -1,6 +1,6 @@
 # Synchronization-between-multiple-threads.
 
-#Explanation of the code: 
+# Explanation of the code: 
 
 Only one thread can acquire the semaphore at a time because it is created with a value of 1. A thread enters a critical area and is able to run code that shouldn't be stopped by another thread when it gains the semaphore. The semaphore is released after the thread is finished, allowing the other thread to pick it up and enter the crucial part.
 
